@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>table learning</title>
+    <style>
+        table,tr,td,th,caption{
+            border:1px solid;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <caption>My Daily Schedule</caption>
+    <thead>
+        <tr>
+            <th scope="col">&nbsp;</th>
+            <th scope="col">Time</th>
+            <th scope="col">Scheduled Task</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td scope="row">Morning</td>
+            <td><time datetime="08:00">8am to 10am</time></td>
+            <td rowspan="2">Study time</td>
+        </tr>
+        <tr>
+            <td scope="row">Mid-Morning</td>
+            <td>11am to 1pm</td> 
+        </tr>
+        <tr>
+            <td scope="row">Afternoon</td>
+            <td>3pm to 4.30pm</td>
+            <td>Study and sleep</td>
+        </tr>
+        <tr>
+            <td>Evening</td>
+            <td>5pm to 6.30pm</td>
+            <td>Study and sleep</td>
+        </tr>
+
+        <tr>
+            <td>Night</td>
+            <td>7pm to 10pm</td>
+            <td>Study time</td>
+
+        </tr>
+        <tfoot>
+        <tr>
+            <td colspan="3">Free Time</td>
+        </tr>
+    </tfoot>
+    </tbody>
+    </table>
+    
+</body>
+</html>

@@ -1,0 +1,15 @@
+for code readability, use semantic tags
+visit:https://learntheweb.courses/topics/html-semantics-cheat-sheet/
+
+<article id=""></article>
+or
+<section id=""></section>
+
+Inside article also many sections can have
+
+visit:https://github.com/gitdagray/html_course/blob/main/07_lesson/index.html
+
+<aside><details><summary><p></p></summary></details></aside>
+This paragraph will view only if clicked
+
+<time datetime=""></time>

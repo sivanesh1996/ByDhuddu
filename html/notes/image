@@ -1,0 +1,12 @@
+<figure>
+<figcaption>text here</figcaption>  ->auto indent center
+</figure>
+<code></code> -> use to enter code
+
+for image tag, use width,height,loading="lazy"
+
+for dummy image, text as placeholders->use loremipsum website
+for free images. use pexels.com , gratisography,pixabay
+for image dimensions, use irfanview software, canva for edit
+for compress img, use tinypng website
+
